@@ -154,7 +154,6 @@ input::-webkit-datetime-edit{ color: transparent; }
   margin-top: 1em;
 }
 section.secondary-content {
-  /*position: relative;*/
   color: #444;
 }
 section.secondary-content aside .content-1 {
@@ -224,7 +223,6 @@ footer a {
 }
 
 @media screen and (max-width: 700px) {
-
   h1 { font-size: 1.6em; }
   h2 { font-size: 1.2em; }
   p { font-size: .8em; }
