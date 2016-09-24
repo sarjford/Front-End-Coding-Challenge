@@ -268,6 +268,8 @@ footer a {
   section.main .column-right { width: 45%; }
   section.main .column-left { width: 45%; }
 
+  section.secondary-content .container { width: 90%; }
+
   /* Section - Secndary Content */
   section.secondary-content aside .content { float: none; width: 100%; }
 
@@ -276,6 +278,8 @@ footer a {
 }
 
 @media only screen and (max-width: 480px) {
+
+  header img { width: 200px; }
 
   /* Nav */
   nav { height: 10px; }
@@ -290,4 +294,5 @@ footer a {
     text-align: center;
     color: white;
   }
+  section.secondary-content .container { width: 90%; }
   }
